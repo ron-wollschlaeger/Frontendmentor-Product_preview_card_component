@@ -31,7 +31,7 @@ a{
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     width: 343px;
-    /* height: 611px; */
+    height: auto;
     margin: 30px auto;
 }
 
@@ -49,6 +49,20 @@ a{
 
 .card__full-content__heading h2 {
     color: var(--darkgrey);
+    font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin-bottom: 15px;
+}
+
+.card__full-content__heading h1 {
+    color: var(--darkblue);
+    font-size: 2.3rem;
+    font-family: Fraunces;
+    line-height: 2.3rem;
+    margin-bottom: 15px;
+}
+
+.card__full-content__paragraph {
+    margin-bottom: 20px;
 }
