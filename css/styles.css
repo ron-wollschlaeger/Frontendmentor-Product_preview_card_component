@@ -1,5 +1,7 @@
+/* Google Font import */
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
+/* Colors */
 :root {
     --white: #ffffff;
     --darkgrey: #6c7289;
@@ -8,6 +10,7 @@
     --darkcyan: #3c8067;
 }
 
+/* Global styling */
 * {
     color: var(--darkblue);
     margin: 0px 0px 0px 0px;
@@ -25,6 +28,7 @@ a{
     text-decoration: none;
 }
 
+/* Card styling */
 .card {
     background-color: var(--white);
     border-radius: 10px;
@@ -35,6 +39,7 @@ a{
     margin: 30px auto;
 }
 
+/* Image styling */
 .card__image {
     border-radius: 10px 10px 0 0;
     background-image: url(/images/image-product-mobile.jpg);
@@ -43,6 +48,7 @@ a{
     height: 240px;
 }
 
+/* Full content styling */
 .card__full-content {
     margin: 25px;
 }
@@ -58,11 +64,60 @@ a{
 .card__full-content__heading h1 {
     color: var(--darkblue);
     font-size: 2.3rem;
-    font-family: Fraunces;
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
     line-height: 2.3rem;
     margin-bottom: 15px;
 }
 
-.card__full-content__paragraph {
+.card__full-content__paragraph p {
+    color: var(--darkgrey);
+    line-height: 1.75rem;
     margin-bottom: 20px;
+}
+
+/* Amount styling */
+.card__full-content__amount {
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card__full-content__amount p {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    display: flex;
+}
+
+.card__full-content__amount--correct p {
+    color: var(--darkcyan);
+    font-size: 2.3rem;
+    margin-right: 20px;
+}
+
+.card__full-content__amount--line-through p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: var(--darkgrey);
+    text-decoration: line-through;
+}
+
+/* Button styling */
+.card__button {
+    background-color: var(--darkcyan);
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+.card__button__content {
+    display: flex;
+    justify-content: center;
+}
+
+.card__button p {
+    color: var(--white);
+    margin-left: 10px;
 }
