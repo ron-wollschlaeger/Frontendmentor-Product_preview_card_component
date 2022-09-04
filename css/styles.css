@@ -3,11 +3,11 @@
 
 /*---------------------------------------- Colors */
 :root {
-    --white: #ffffff;
-    --darkgrey: #6c7289;
-    --darkblue: #1c232b;
-    --cream: #f2ebe3;
-    --darkcyan: #3c8067;
+    --white: hsl(0, 0%, 100%);
+    --darkgrey: hsl(228, 12%, 48%);
+    --darkblue: hsl(212, 21%, 14%);
+    --cream: hsl(32, 37%, 92%);
+    --darkcyan: hsl(158, 36%, 37%);
 }
 
 /*---------------------------------------- Frontend Mentor Credits styling */
@@ -68,12 +68,12 @@ a{
     font-size: 0.9rem;
     text-transform: uppercase;
     letter-spacing: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
 }
 
 .card__full-content__heading h1 {
     color: var(--darkblue);
-    font-size: 2.3rem;
+    font-size: 2.4rem;
     font-family: 'Fraunces', serif;
     font-weight: 700;
     line-height: 2.3rem;
