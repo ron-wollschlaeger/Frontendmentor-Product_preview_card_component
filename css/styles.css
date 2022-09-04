@@ -64,7 +64,7 @@ a{
 
 /*---------------------------------------- Full content styling */
 .card__full-content {
-    margin: 20px;
+    margin: 25px 20px;
 }
 
 .card__full-content__heading h2 {
