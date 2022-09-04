@@ -47,20 +47,23 @@ a{
     width: 343px;
     height: auto;
     margin: 30px auto;
+    background-color: blue;
 }
 
 /*---------------------------------------- Image styling */
 .card__image {
     border-radius: 10px 10px 0 0;
-    background-image: url(/images/image-product-mobile.jpg);
+    /* background-image: url(/images/image-product-mobile.jpg); */
     background-size: cover;
     width: 100%;
     height: 240px;
+    background-color:yellowgreen;
 }
 
 /*---------------------------------------- Full content styling */
 .card__full-content {
     margin: 25px;
+    background-color: red;
 }
 
 .card__full-content__heading h2 {
@@ -69,6 +72,7 @@ a{
     text-transform: uppercase;
     letter-spacing: 5px;
     margin-bottom: 20px;
+    background-color: cyan;
 }
 
 .card__full-content__heading h1 {
@@ -78,12 +82,14 @@ a{
     font-weight: 700;
     line-height: 2.3rem;
     margin-bottom: 15px;
+    background-color: yellow;
 }
 
 .card__full-content__paragraph p {
     color: var(--darkgrey);
     line-height: 1.75rem;
     margin-bottom: 20px;
+    background-color: blueviolet;
 }
 
 /*---------------------------------------- Amount styling */
@@ -92,12 +98,14 @@ a{
     grid-template-columns: repeat(2,150px);
     align-items: center;
     margin-bottom: 15px;
+    background-color: aqua;
 }
 
 .card__full-content__amount p {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     display: flex;
+    background-color: burlywood;
 }
 
 .card__full-content__amount--correct p {
