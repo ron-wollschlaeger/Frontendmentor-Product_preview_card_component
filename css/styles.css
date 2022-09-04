@@ -30,7 +30,7 @@
 
 /*---------------------------------------- Debugging Tools - DELETE ME WHEN DONE */ 
     /* outline: 1px solid red !important; */
-    background-color: rgb(100 0 0 / 0.05) !important;
+    /* background-color: rgb(100 0 0 / 0.05) !important; */
 }
 
 body {
@@ -140,6 +140,7 @@ a{
 
 /*---------------------------------------- Card - Media Query for >768px */
 @media (min-width: 768px) {
+    /*-------------------- Card styling */
     .card {
         grid-template-columns: repeat(2, 1fr);
         width: 600px;
@@ -147,6 +148,7 @@ a{
         margin-top: 150px;
     }
 
+    /*-------------------- Card - Image styling */
     .card__image {
         border-radius: 10px 0 0 10px;
         background-image: url(/images/image-product-desktop.jpg);
@@ -154,16 +156,41 @@ a{
         width: 300px;
     }
 
+    /*-------------------- Card - Full content styling */
     .card__full-content {
         max-width: 240px;
         margin: 30px;
     }
 
+    /*-------------------- Card - Heading styling */
     .card__full-content__heading h2 {
         margin-bottom: 20px;
     }
     
     .card__full-content__heading h1 {
         margin-bottom: 20px;
+    }
+
+    /*-------------------- Card - Paragraph styling */
+    .card__full-content__paragraph p {
+        margin-bottom: 25px;
+    }
+
+    /*-------------------- Card - Amount styling */
+    .card__full-content__amount {
+        margin-bottom: 25px;
+    }
+
+    .card__full-content__amount--line-through {
+        margin-right: 60px;
+    }
+
+    .card__full-content__amount--line-through p {
+        margin-right: 60px;
+    }
+
+    /*-------------------- Card - Button styling */
+    .card__button {
+        width: 240px;
     }
 }
