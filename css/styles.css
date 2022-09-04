@@ -7,7 +7,8 @@
     --darkgrey: hsl(228, 12%, 48%);
     --darkblue: hsl(212, 21%, 14%);
     --cream: hsl(32, 37%, 92%);
-    --darkcyan: hsl(158, 36%, 37%);
+    --cyan: hsl(158, 36%, 37%);
+    --darkcyan: hsl(157, 46%, 17%);
 }
 
 /*---------------------------------------- Frontend Mentor Credits styling */
@@ -30,7 +31,7 @@
 
 /*---------------------------------------- Debugging Tools - DELETE ME WHEN DONE */ 
     /* outline: 1px solid red !important; */
-    /* background-color: rgb(100 0 0 / 0.05) !important; */
+    background-color: rgb(100 0 0 / 0.05) !important;
 }
 
 body {
@@ -38,7 +39,6 @@ body {
 }
 
 a{
-    cursor: pointer;
     text-decoration: none;
 }
 
@@ -107,7 +107,7 @@ a{
 }
 
 .card__full-content__amount--correct p {
-    color: var(--darkcyan);
+    color: var(--cyan);
     font-size: 2.3rem;
     margin-right: 20px;
 }
@@ -121,11 +121,18 @@ a{
 
 /*---------------------------------------- Card - Button styling */
 .card__button {
-    background-color: var(--darkcyan);
+    display: block;
+    background-color: var(--cyan);
     border: none;
     border-radius: 10px;
     width: 300px;
     height: 50px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.card__button:hover {
+    background-color: var(--darkcyan);
 }
 
 .card__button__content {
