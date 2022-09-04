@@ -52,7 +52,7 @@ a{
     margin: 30px auto;
 }
 
-/*---------------------------------------- Image styling */
+/*---------------------------------------- Card - Image styling */
 .card__image {
     border-radius: 10px 10px 0 0;
     background-image: url(/images/image-product-mobile.jpg);
@@ -62,7 +62,7 @@ a{
     height: 240px;
 }
 
-/*---------------------------------------- Full content styling */
+/*---------------------------------------- Card - Full content styling */
 .card__full-content {
     margin: 25px 20px;
 }
@@ -90,7 +90,7 @@ a{
     margin-bottom: 20px;
 }
 
-/*---------------------------------------- Amount styling */
+/*---------------------------------------- Card - Amount styling */
 .card__full-content__amount {
     display: grid;
     grid-template-columns: repeat(2,150px);
@@ -117,7 +117,7 @@ a{
     text-decoration: line-through;
 }
 
-/*---------------------------------------- Button styling */
+/*---------------------------------------- Card - Button styling */
 .card__button {
     background-color: var(--darkcyan);
     border: none;
@@ -134,4 +134,20 @@ a{
 .card__button p {
     color: var(--white);
     margin-left: 10px;
+}
+
+/*---------------------------------------- Card - Media Query for >768px */
+@media (min-width: 768px) {
+    .card {
+        grid-template-columns: repeat(2, 1fr);
+        width: 600px;
+        height: 450px;
+        margin-top: 150px;
+    }
+
+    .card__image {
+        border-radius: 10px 0 0 10px;
+        background-image: url(/images/image-product-desktop.jpg);
+        height: 450px;
+    }
 }
