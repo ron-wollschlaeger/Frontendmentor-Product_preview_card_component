@@ -30,7 +30,7 @@
 
 /*---------------------------------------- Debugging Tools - DELETE ME WHEN DONE */ 
     /* outline: 1px solid red !important; */
-    /* background-color: rgb(100 0 0 / 0.05) !important; */
+    background-color: rgb(100 0 0 / 0.05) !important;
 }
 
 body {
@@ -152,5 +152,18 @@ a{
         background-image: url(/images/image-product-desktop.jpg);
         height: 450px;
         width: 300px;
+    }
+
+    .card__full-content {
+        max-width: 240px;
+        margin: 30px;
+    }
+
+    .card__full-content__heading h2 {
+        margin-bottom: 20px;
+    }
+    
+    .card__full-content__heading h1 {
+        margin-bottom: 20px;
     }
 }
