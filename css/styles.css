@@ -184,8 +184,4 @@ body {
     .card__amount--line-through {
         margin-right: 60px;
     }
-
-    .card__amount--line-through p {
-        margin-right: 60px;
-    }
 }
