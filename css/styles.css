@@ -24,14 +24,15 @@
 /*---------------------------------------- Global styling */
 * {
     color: var(--darkblue);
-    margin: 0px 0px 0px 0px;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 14px;
 
 /*---------------------------------------- Debugging Tools - DELETE ME WHEN DONE */ 
     /* outline: 1px solid red !important; */
-    background-color: rgb(100 0 0 / 0.05) !important;
+    /* background-color: rgb(100 0 0 / 0.05) !important; */
 }
 
 body {
@@ -120,14 +121,6 @@ a{
 }
 
 /*---------------------------------------- Card - Button styling */
-button a {
-    display: block;
-    height: 35px;
-    width: 233px;
-    border-radius: 10px;
-    padding-top: 15px;
-}
-
 .card__button {
     display: block;
     background-color: var(--cyan);
@@ -136,10 +129,20 @@ button a {
     width: 300px;
     height: 50px;
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 .card__button:hover {
     background-color: var(--darkcyan);
+}
+
+button a {
+    display: block;
+    height: 32px;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 16px;
 }
 
 .card__button__content {
@@ -205,6 +208,10 @@ button a {
 
     /*-------------------- Card - Button styling */
     .card__button {
+        width: 240px;
+    }
+
+    button a {
         width: 240px;
     }
 }
