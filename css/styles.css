@@ -31,7 +31,7 @@
 
 /*---------------------------------------- Debugging Tools - DELETE ME WHEN DONE */ 
     /* outline: 1px solid red !important; */
-    /* background-color: rgb(100 0 0 / 0.05) !important; */
+    background-color: rgb(100 0 0 / 0.05) !important;
 }
 
 body {
@@ -120,6 +120,14 @@ a{
 }
 
 /*---------------------------------------- Card - Button styling */
+button a {
+    display: block;
+    height: 35px;
+    width: 233px;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
 .card__button {
     display: block;
     background-color: var(--cyan);
